@@ -25,7 +25,6 @@ Bidirectional cross-attention that lets each modality condition the other's repr
 
 ![Proposed architecture](figures/pipeline.png)
 
-<!-- Add the Figure 4.1 diagram to docs/pipeline.png -->
 
 **How it works (Experiment 5.6):**
 1. Each (headline, image) pair passes through BLIP's text and vision encoders, kept as full sequences (128 text tokens, 577 image patches × 768-dim) rather than pooled to a single vector.
